@@ -21,6 +21,11 @@ import JpaProductReadPage from "@/views/lecture/product/JpaProductReadPage.vue"
 import JpaProductModifyPage from "@/views/lecture/product/JpaProductModifyPage.vue"
 
 import FileUploadPage from "@/views/lecture/file/FileUploadPage.vue"
+import ImageGalleryPage from "@/views/lecture/gallery/ImageGalleryPage.vue"
+import LifeCyclePage from "@/views/lecture/lifecycle/LifeCyclePage.vue"
+import CarouselPage from "@/views/lecture/carouselTest/CarouselPage.vue"
+import DialogTestPage from "@/views/lecture/dialogTest/DialogTestPage.vue"
+import TableTestPage from "@/views/lecture/tableTest/TableTestPage.vue"
 
 Vue.use(VueRouter)
 
@@ -119,8 +124,33 @@ const routes = [
     path: '/file-upload',
     name: 'FileUploadPage',
     component: FileUploadPage
+  },
+  {
+    path: '/image-gallery',
+    name: 'ImageGalleryPage',
+    component: ImageGalleryPage
+  },
+  {
+    path: '/life-cycle',
+    name: 'LifeCyclePage',
+    component: LifeCyclePage
+  },
+  {
+    path: '/carousel-page',
+    name: 'CarouselPage',
+    component: CarouselPage
+  },
+  {
+    path: '/dialog-test-page',
+    name: 'DialogTestPage',
+    component: DialogTestPage
+  },
+  {
+    path: '/table-test-page',
+    name: 'TableTestPage',
+    component: TableTestPage
   }
-
+  
   
 ]
 
